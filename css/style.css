@@ -3218,8 +3218,21 @@ hr {
   }
 }
 .pi-section-white {
-  background-color: #ffffff;
-  background: url('img/blank1.png') rgba(0, 0, 0, 0.95);
+  /*background-color: #ffffff;*/
+  position:relative;
+  background: url('img/blank.png') rgba(0, 0, 0, 0.6);
+
+  /*background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;*/
+
+
   /*	&.pi-shadow {
 			.box-shadow(@shadow);
 		}
