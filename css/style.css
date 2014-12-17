@@ -3436,7 +3436,7 @@ hr {
   color: #9b6e61;
 }
 .pi-section-dark {
-  background-color: #21252b;
+ background: url('../img/blank.png') rgba(0, 0, 0, 0.6);
   /*	&.pi-shadow {
 			.box-shadow(@shadow);
 		}

@@ -1010,7 +1010,7 @@ border-style:none;
 	-	NAVIGATION	-
 *************************/
 
-/** BULLETS **/
+/** BULLETS
 
 .tpclear		{	clear:both;}
 
@@ -1046,7 +1046,7 @@ border-style:none;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
-
+ **/
 
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative; width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
@@ -1078,7 +1078,7 @@ border-style:none;
 
 /*************************************
 	-	TP ARROWS 	-
-**************************************/
+
 .tparrows												{	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 															-moz-opacity: 1;
 															-khtml-opacity: 1;
@@ -1169,7 +1169,7 @@ border-style:none;
 
 
 
-
+**************************************/
 
 
 /****************************************************************************************************
