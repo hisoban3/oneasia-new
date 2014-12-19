@@ -500,7 +500,7 @@ hr {
   display: block !important;
 }
 .pi-pull-right {
-  float: left !important;
+  float: right !important;
 }
 .pi-pull-left {
   float: left !important;
@@ -3218,21 +3218,7 @@ hr {
   }
 }
 .pi-section-white {
-  /*background-color: #ffffff;*/
-  position:relative;
-  background: url('img/blank.png') rgba(0, 0, 0, 0.6);
-
-  /*background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;*/
-
-
+  background-color: #ffffff;
   /*	&.pi-shadow {
 			.box-shadow(@shadow);
 		}
@@ -3436,7 +3422,7 @@ hr {
   color: #9b6e61;
 }
 .pi-section-dark {
- background: url('img/blank.png') rgba(0, 0, 0, 0.6);
+  background-color: #21252b;
   /*	&.pi-shadow {
 			.box-shadow(@shadow);
 		}
@@ -3601,7 +3587,7 @@ hr {
   border-top: 3px solid #8f5340;
 }
 .pi-border-bottom-strong-base {
-  border-bottom: 3px solid #8f5340;margin-top: -100px;
+  border-bottom: 3px solid #8f5340;
 }
 .pi-section-overlay-base {
   background: rgba(122, 58, 43, 0.9);
@@ -3621,7 +3607,7 @@ hr {
 .pi-header-block {
   display: inline-block;
   margin: 0 10px;
-  float: right;
+  float: left;
   line-height: 1em;
   vertical-align: top;
   max-height: 100%;
@@ -3703,7 +3689,8 @@ hr {
   vertical-align: middle;
 }
 .pi-section-header-lg .pi-header-block-logo img {
-  max-height: 100px;
+  max-height: 92px;
+margin-top: 3px;
 }
 .pi-section-header-md .pi-header-block-logo img {
   max-height: 70px;
@@ -9870,7 +9857,7 @@ select.form-control {
   color: #21252b;
 }
 .pi-section-white .pi-simple-menu > li > a {
-  color: #FAFCFF;
+  color: #21252b;
 }
 .pi-section-white .pi-simple-menu > li:hover {
   color: #8f5340;

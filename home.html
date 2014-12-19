@@ -7,7 +7,7 @@
 
 	
     <link rel="shortcut icon" type="img/x-icon" href="img/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style1.css"/>
 	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
 	<link rel="stylesheet" type="text/css" href="3dParty/rs-plugin/css/pi.settings.css"/>
 	<link rel="stylesheet" type="text/css" href="css/slider.css"/>
@@ -40,7 +40,37 @@
 <div class="pi-main-header-w">
 
 <!-- Header row -->
+<div class="pi-section-w pi-section-header-w pi-section-dark pi-section-header-sm-w">
+	<div class="pi-section pi-section-header pi-section-header-sm pi-clearfix">
 
+		<!-- Phone -->
+		<div class="pi-header-block pi-header-block-txt">
+			<i class="pi-header-block-icon icon-phone pi-icon-base pi-icon-square"></i>Call Us: <strong>(+94) 11 4356356</strong>
+		</div>
+		<!-- End phone -->
+
+		<!-- Email -->
+		<div class="pi-header-block pi-header-block-txt pi-hidden-xs"><i
+				class="pi-header-block-icon icon-mail pi-icon-base pi-icon-square"></i>Email: <a href="#">info@oneasiafinance.lk</a>
+		</div>
+		<!-- End email -->
+
+		<!-- Social icons -->
+		<div class="pi-header-block pi-pull-right pi-hidden-2xs">
+			<ul class="pi-social-icons pi-stacked pi-jump pi-full-height pi-bordered pi-small pi-colored-bg clearFix">
+				<li><a href="#" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
+				<li><a href="#" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
+				<li><a href="#" class="pi-social-icon-dribbble"><i class="icon-dribbble"></i></a></li>
+			</ul>
+		</div>
+		<!-- End social icons -->
+
+		<!-- Text -->
+		<div class="pi-header-block pi-header-block-txt pi-pull-right pi-hidden-xs">Follow Us:</div>
+		<!-- End text -->
+
+	</div>
+</div>
 <!-- End header row -->
 
 <div class="pi-header-row-sticky-w">
@@ -59,37 +89,40 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right" style="margin-right: 108px;">
+<div class="pi-header-block pi-pull-right">
 			<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
 
 				
 				<li>
-					<a href="index.html" data-scroll-to="#anchor-home" data-scroll-to-offset="-200"><span>HOME&nbsp;&nbsp;|</span></a>
-				
+					<a href="index.html" data-scroll-to="#anchor-home" data-scroll-to-offset="-200"><span>HOME</span></a>
+					<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
+		
+		
+		        <li><a href="home.html"><span>Home 2</span></a></li>
 		
 	
 		
-	              
+	              </ul>
 				</li>
 				
 				<li>
-					<a href="about.html" data-scroll-to="#anchor-about" data-scroll-to-offset="-100"><span>ABOUT US&nbsp;&nbsp;|</span></a>
+					<a href="#anchor-about" data-scroll-to="#anchor-about" data-scroll-to-offset="-100"><span>ABOUT US</span></a>
 				</li>
 
 				<li>
-					<a href="#anchor-services" data-scroll-to="#anchor-services" data-scroll-to-offset="-70"><span>NEWS&nbsp;&nbsp;|</span></a>
+					<a href="#anchor-services" data-scroll-to="#anchor-services" data-scroll-to-offset="-70"><span>NEWS</span></a>
 				</li>
 
 				<li>
-					<a href="#anchor-team" data-scroll-to="#anchor-team" data-scroll-to-offset="-70"><span>PlAT FORM&nbsp;&nbsp;|</span></a>
+					<a href="#anchor-team" data-scroll-to="#anchor-team" data-scroll-to-offset="-70"><span>PlAT FORM</span></a>
 				</li>
 				
 				<li>
-					<a href="#anchor-testimonials" data-scroll-to="#anchor-testimonials" data-scroll-to-offset="-70"><span>FUNDS&nbsp;&nbsp;|</span></a>
+					<a href="#anchor-testimonials" data-scroll-to="#anchor-testimonials" data-scroll-to-offset="-70"><span>FUNDS</span></a>
 				</li>
 
 				<li>
-					<a href="#anchor-work" data-scroll-to="#anchor-work" data-scroll-to-offset="-70"><span>CONTACT US&nbsp;&nbsp;|</span></a>
+					<a href="#anchor-work" data-scroll-to="#anchor-work" data-scroll-to-offset="-70"><span>CONTACT US</span></a>
 				</li>
 
 				<li>
@@ -101,7 +134,7 @@
 <!-- End menu -->
 
 <!-- Mobile menu button -->
-<div class="pi-header-block pi-pull-right pi-hidden-lg-only pi-hidden-md-only" style="margin-right: 108px;">
+<div class="pi-header-block pi-pull-right pi-hidden-lg-only pi-hidden-md-only">
 	<button class="btn pi-btn pi-mobile-menu-toggler" data-target="#pi-main-mobile-menu">
 		<i class="icon-menu pi-text-center"></i>
 	</button>
@@ -124,12 +157,12 @@
 
 				<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
 					<li class="active">
-						<a href="index.htl">Home</a>
+						<a href="#home">Home</a>
 						
 					</li>
 					
 					<li>
-						<a href="about.html">About Us</a>
+						<a href="#anchor-about">About Us</a>
 					</li>
 
 					<li>
@@ -279,7 +312,6 @@
 
 </li>
 
-
 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" >
 <!-- MAIN IMAGE -->
 <img src="img_external/revolution-slider/slide4.jpg"  alt=""  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
@@ -322,13 +354,8 @@
 <!-- End widget area -->
 
 <!-- Copyright area -->
-<div class="pi-section-w pi-section-header-w pi-section-dark pi-border-top-light pi-border-bottom-strong-base pi-section-header-lg-w" style="
-    height: 71px;
-    margin-top: 94px;
-">
-	<div class="pi-section pi-section-header pi-section-header-lg pi-center-text-2xs pi-clearfix"style="
-    margin-top: -12px;
-">
+<div class="pi-section-w pi-section-header-w pi-section-dark pi-border-top-light pi-border-bottom-strong-base pi-section-header-lg-w" >
+	<div class="pi-section pi-section-header pi-section-header-lg pi-center-text-2xs pi-clearfix">
 
 		<!-- Social icons -->
 		<div class="pi-header-block pi-pull-right pi-hidden-2xs">
